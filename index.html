@@ -20,46 +20,142 @@
 <body>
   <header class="hero" role="banner">
     <div class="hero-inner">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>Chibuike Chigbundu</h1>
-          <p class="sub">Mechatronics Engineer · Machine Learning · Embedded Systems</p>
+      <h1>Chibuike Chigbundu</h1>
+      <p class="sub">Mechatronics Engineer · Machine Learning · Embedded Systems</p>
 
-          <!-- One-line recruiter-focused summary -->
-          <p class="lead">
-            I design and build reliable embedded systems and ML-enabled robotics solutions — focused on production-ready reliability, maintainability and measurable results.
-          </p>
+      <!-- One-line recruiter-focused summary -->
+      <p class="lead">
+        I design and build reliable embedded systems and ML-enabled robotics solutions — focused on production-ready reliability, maintainability and measurable results.
+      </p>
 
-          <p class="meta">
-            Location: Lagos, Nigeria &middot; Availability: Available now
-          </p>
+      <p class="meta">
+        Location: Lagos, Nigeria &middot; Availability: Available now
+      </p>
 
-          <p class="hero-cta">
-            <a class="btn" href="Chibuike Chigbundu CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-            <a class="btn ghost" href="mailto:chigbunduchibuike06@gmail.com" aria-label="Email Chibuike">Email</a>
-            <a class="btn ghost" href="https://github.com/ChibuikeChi" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a class="btn ghost" href="https://www.linkedin.com/in/Chibuike-Chigbundu-O" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </p>
-        </div>
-
-        <!-- Profile photo placed to the right -->
-        <!-- Put your image at /images/profile.jpg (or change the src to your preferred path). -->
-        <div class="hero-figure" aria-hidden="false">
-          <img src="images/profile.jpg" alt="Portrait of Chibuike Chigbundu" class="profile-photo" />
-        </div>
-      </div>
+      <p class="hero-cta">
+        <a class="btn" href="Chibuike Chigbundu CV.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+        <a class="btn ghost" href="mailto:chigbunduchibuike06@gmail.com" aria-label="Email Chibuike">Email</a>
+        <a class="btn ghost" href="https://github.com/ChibuikeChi" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/Chibuike-Chigbundu-O" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
     </div>
   </header>
 
   <main class="container" role="main">
-    <!-- rest of the page unchanged -->
-    ...
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+        I graduated with first-class honours in Mechatronics Engineering. I focus on designing embedded controllers, integrating sensors & actuators, and applying ML where it provides clear value (predictive maintenance, computer vision, and control improvements).
+      </p>
+
+      <ul class="highlights">
+        <li>Hands-on experience delivering embedded systems with Wi‑Fi sync, SD storage and cloud logging.</li>
+        <li>Comfortable taking a project from prototype to a reproducible build and documentation.</li>
+        <li>Focused on reliability: repeatable firmware, diagnostic logging, and maintainable hardware designs.</li>
+      </ul>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <div class="skill-grid">
+        <div class="skill-col">
+          <h3>Languages & Embedded</h3>
+          <ul class="skills">
+            <li>Python</li>
+            <li>C / C++</li>
+            <li>Arduino, ESP32</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Machine Learning</h3>
+          <ul class="skills">
+            <li>TensorFlow · Keras</li>
+            <li>Scikit-learn · Pandas · NumPy</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Tools & Mechanical</h3>
+          <ul class="skills">
+            <li>Flask · FastAPI</li>
+            <li>Multisim · Proteus · MATLAB Simulink</li>
+            <li>SolidWorks (basics)</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="note">Tip: Consider adding years or proficiency levels next to top skills (helps quick screening).</p>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <div class="job">
+        <h3>Automedics Limited — Mechatronics Engineer</h3>
+        <p class="job-meta">March 2024 – September 2024</p>
+        <ul>
+          <li>Repaired, serviced and troubleshooted 10+ vehicles of different brands per week (Mercedes, Toyota, Hyundai, Ford, BMW).</li>
+          <li>Handled diagnostics and mechanical/electrical repair workflows; documented faults and fixes for repeatability.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Green Fuel Limited — Mechanical Engineer</h3>
+        <p class="job-meta">July 2023 – October 2023</p>
+        <ul>
+          <li>Actively contributed to uptime improvements by participating in scheduled compressor maintenance and troubleshooting.</li>
+          <li>Took regular compression readings, tracked performance trends, and assisted with ensuring efficient compressor operation.</li>
+        </ul>
+      </div>
+
+      <p class="note">Where possible, add concrete numbers (uptime %, downtime hours saved, systems supported) to strengthen each bullet.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Projects</h2>
+
+      <article class="project">
+        <h4>3D Laser Scanner for Product Design</h4>
+        <p>Built a 3D scanner from scratch: hardware design, motor control, sensor integration and a point-cloud processing pipeline to produce printable meshes.</p>
+        <p class="project-meta">Tech: Arduino · NEMA17 steppers · IR sensors · Python · MeshLab</p>
+        <p>Outcome: Generated accurate printable meshes and noticeably improved scan speed (detailed metrics and sample meshes included in documentation). Role: Sole developer — concept, hardware, firmware and processing pipeline.</p>
+        <p class="project-assets">Photos & documentation available on request.</p>
+      </article>
+
+      <article class="project">
+        <h4>Miniature F1 Car</h4>
+        <p>Designed and assembled an electromechanical miniature F1 car with Arduino-based motor & steering control. Implemented control logic and tuned the system for consistent movement.</p>
+        <p class="project-meta">Tech: Arduino · PID control · RC electronics</p>
+        <p>Outcome: Achieved correct configuration and smooth, reliable movement through hardware tuning and control logic. Role: Group participant — responsible for soldering, PCB/board printing and integration tasks.</p>
+        <p class="project-assets">Photos available on request.</p>
+      </article>
+
+      <article class="project">
+        <h4>Fingerprint-Based Attendance System</h4>
+        <p>Automated attendance tracker using a fingerprint sensor, SD card storage and Wi‑Fi sync to the cloud. Focused on offline-first reliability and robust logging.</p>
+        <p class="project-meta">Tech: ESP32 · Fingerprint sensor · SD storage · Wi‑Fi</p>
+        <p>Outcome: Reduced manual logging by ~60% and increased efficiency and reliability of attendance records by ~70% (field-tested). Role: Front-end interface and CAD/fabrication for enclosures.</p>
+        <p class="project-assets">No public repo; design files and test reports available on request.</p>
+      </article>
+
+      <p class="note">Action: add short repo links or demos when ready — recruiters will click 1–2 projects first.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Email: <a href="mailto:chigbunduchibuike06@gmail.com">chigbunduchibuike06@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/Chibuike-Chigbundu-O" target="_blank" rel="noopener noreferrer">Chibuike-Chigbundu-O</a></p>
+      <p>GitHub: <a href="https://github.com/ChibuikeChi" target="_blank" rel="noopener noreferrer">github.com/ChibuikeChi</a></p>
+
+      <p class="contact-cta">If you're recruiting, please include the role and a short description of the opportunity when you reach out — it helps me respond faster.</p>
+    </section>
   </main>
 
   <footer class="site-footer" role="contentinfo">
-    <p>Made with ❤️ • Chibuike Chigbundu</p>
+    <p>So help me God • Chibuike Chigbundu</p>
   </footer>
 
+  <!-- Structured data for better discoverability -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
